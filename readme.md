@@ -1,9 +1,13 @@
 # 读研期间实习工作记录
 **花有重开日，人无再少年。**  
+  
 ![追逐](https://i1.nichengzhan.com/eec27964b3e4a90db27efe5f/ecdd/ab9d313deb/a8983337ecb4fc40e824a109bc993b556a.jpg)
-## 2022年5月16日
-计划解决的问题：上位机GATT服务关闭后，GATT服务重连异常的问题，排除故障并且解决.  
+## 2022年5月16日  
+  
+计划解决的问题：上位机GATT服务关闭后，GATT服务重连异常的问题，排除故障并且解决.
+  
 解决情况：对于Ble设备能够关闭GATT服务并且重连，对于经典蓝牙设备无法断开GATT服务。
+  
 ## 2022年5月17-18日
 计划解决的问题：学习blufi数据传输协议以及blufi的数据帧格式，手机app能够传输正确的数据帧并对esp32进行wifi网络配置。  
 解决情况：已经解决！在esp官方的例程中，在数据帧上加入日志，利用官方的APP发送数据帧，然后查看运行日志，就能准确的知道每一个数据帧执行什么功能。
@@ -11,7 +15,7 @@
 计划解决的问题：熟悉基本的网络通信Socket编程，学习利用UDP与TCP协议传输数据。  
 完成情况：在学习了基本的socket编程之后，自己独立编写了一个基于TCP/IP协议的socket客户机，程序运行遇到了BUG 无法与serve建立连接。
 ## 2022年5月20日
-计划解决的问题：
+计划解决的问题：  
 1.在基于昨天的socket编程的基础上，解决本次socket客户机无法与server建立连接的问题；  
 2.自己独立编写基于TCP/IP协议的Socket的server，要求能够实现收发功能。  
 3.如果以上问题顺利解决，将TCP协议转换成UDP协议进行通信编程。  
@@ -90,7 +94,7 @@ k3，K4生成函数已经运行正确，目前已经开始进行第二部分的�
 任务完成情况：
 1.为了更加深入了解蓝牙Mesh proxy PDUs 的组成，昨天继续深入学习了蓝牙mesh的协议栈，各个层之间的功能以及作用，对协议栈的各个层级有了更加深入的理解。  
 2.昨天给原来的bleMesh上位机app添加了uuid过滤机制，当下ble.mesh app 只能扫描到代理节点的GAP广播包。  
-
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4d72eb417adf4ab2b65573a13868872c~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
 ## 2022年6月24日
 今日的任务计划：在昨天的基础上，完成Access layer、upper transport layer 、lower transport layer这三层Pdu的拼接。  
 任务完成情况，已经对upper transport layer pdu完成，周一之后将继续完成所有pdu的完成。  
