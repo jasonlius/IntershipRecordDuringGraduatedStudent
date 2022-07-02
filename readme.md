@@ -1,5 +1,6 @@
 # 读研期间实习工作记录
 **花有重开日，人无再少年。**   
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.keaimeitu.com%2Fuploads%2Fallimg%2F20200207%2F1318159503.jpg&imgrefurl=https%3A%2F%2Fm.keaimeitu.com%2Ftupian%2F6419-7.html&tbnid=gQadSQSeOF4hjM&vet=12ahUKEwjKuc-0pNn4AhWLw4sBHQzGDdIQMygEegQIARB-..i&docid=sfkTNn6PCu7XrM&w=400&h=400&q=%E5%94%AF%E7%BE%8E&ved=2ahUKEwjKuc-0pNn4AhWLw4sBHQzGDdIQMygEegQIARB-)
 ## 2022年5月16日
 计划解决的问题：上位机GATT服务关闭后，GATT服务重连异常的问题，排除故障并且解决.  
 解决情况：对于Ble设备能够关闭GATT服务并且重连，对于经典蓝牙设备无法断开GATT服务。
